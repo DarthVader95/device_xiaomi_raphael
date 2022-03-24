@@ -1,4 +1,4 @@
-# Copyright (C) 2020 LineageOS
+# Copyright (C) 2022 VoltageOS
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -13,9 +13,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/evolution_raphael.mk
+    $(LOCAL_DIR)/voltage_raphael.mk
 
 COMMON_LUNCH_CHOICES := \
-    evolution_raphael-user \
-    evolution_raphael-userdebug \
-    evolution_raphael-eng
+    voltage_raphael-user \
+    voltage_raphael-userdebug \
+    voltage_raphael-eng
